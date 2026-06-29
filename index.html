@@ -9,7 +9,24 @@
 </head>
 
 <body>
-  <div class="rect"></div>
+  <div class="app">
+    <div class="controls">
+      <input id="widthInput" type="number" placeholder="Width" value="256" />
+      <input id="heightInput" type="number" placeholder="Height" value="256" />
+
+      <select id="spriteSelect"></select>
+
+      <button id="addBtn">Add Sprite</button>
+      <button id="removeBtn">Remove Sprite</button>
+      <button id="resetBtn">Reset</button>
+      <button id="downloadBtn">Download</button>
+
+      <div id="spriteList" class="list"></div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+  </div>
+
   <script type="module" src="/src/main.ts"></script>
 </body>
 

@@ -1,0 +1,1 @@
+export type Sprite = (ctx: CanvasRenderingContext2D, width: number, height: number) => void;
