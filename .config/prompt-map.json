@@ -1,0 +1,23 @@
+{
+    "question": {
+        "question": [
+            "/home/atari-monk/atari-monk/project/simple-sprite/docs/temp.md"
+        ],
+        "context": [
+            "/home/atari-monk/atari-monk/project/simple-sprite/index.html",
+            "/home/atari-monk/atari-monk/project/simple-sprite/src/main.ts"
+        ]
+    },
+    "implementation": {
+        "rules": [
+            "/home/atari-monk/atari-monk/project/prompts/rules/code.md"
+        ],
+        "requirements": [
+            "/home/atari-monk/atari-monk/project/simple-sprite/docs/temp.md"
+        ],
+        "codebase": [
+            "/home/atari-monk/atari-monk/project/simple-sprite/index.html",
+            "/home/atari-monk/atari-monk/project/simple-sprite/src/main.ts"
+        ]
+    }
+}
